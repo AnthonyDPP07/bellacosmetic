@@ -1,0 +1,54 @@
+@import 'variable.scss';
+
+.pag-productos{
+    .encabezado{
+        margin: auto;
+        padding: 1em 0 1em 0 ;
+
+        @media screen and(max-width:750px){
+            display: flex;
+            justify-content: center;
+        }
+    
+        h3{
+            color: $azulito;
+        }
+
+    }
+
+    .productos{
+        .card-cont{
+        
+            margin-bottom: 2rem;
+            @media screen and(max-width:425px){
+                display: flex;
+                justify-content: center;
+            }
+            .card{
+                @media screen and(max-width:425px){
+                    width: 18rem;
+                }
+            }
+            .img-prod{
+                img{
+                    height: 150px;
+                    
+    
+                };
+            }
+
+            .card-body{
+
+                .card-text{
+                    height: 200px;
+                }
+
+                .btn-primary{
+                    background-color:$verdesito;
+                    border-color: $verdesito;
+                }
+            }
+        }
+       
+    }
+}

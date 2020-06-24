@@ -1,0 +1,19 @@
+@import "variable.scss";
+
+header{ 
+    width: 100%;
+    nav{
+    background: $rosadito;
+    .nav-link{
+        color: white !important;
+    }
+
+    .logo{
+        border-radius: 100%;
+        background-color: white;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+}
+
+
+}

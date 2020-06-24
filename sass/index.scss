@@ -1,0 +1,28 @@
+@import "variable.scss";
+
+.pag-index{
+
+    .parte2{
+
+        .encabezado{
+            margin: auto;
+            padding: 1em 0 1em 0 ;
+        
+            h3{
+                color: $azulito;
+            }
+        }
+
+        .miviva{
+            .cards-cont{
+                margin-bottom: 2rem;
+
+                .card-body{
+                    min-height: 220px;
+                }
+            }
+        }
+    }
+
+    
+}

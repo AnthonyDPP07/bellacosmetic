@@ -1,0 +1,18 @@
+/* line 3, ../sass/header.scss */
+header {
+  width: 100%;
+}
+/* line 5, ../sass/header.scss */
+header nav {
+  background: #EE6E73;
+}
+/* line 7, ../sass/header.scss */
+header nav .nav-link {
+  color: white !important;
+}
+/* line 11, ../sass/header.scss */
+header nav .logo {
+  border-radius: 100%;
+  background-color: white;
+  padding: 0.5rem 0 0.5rem 0;
+}

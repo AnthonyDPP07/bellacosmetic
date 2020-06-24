@@ -1,0 +1,30 @@
+@import "variable.scss";
+
+.pag-nosotros{
+    .encabezado{
+        margin: auto;
+        padding: 1em 0 1em 0 ;
+
+        @media screen and(max-width:750px){
+            display: flex;
+            justify-content: center;
+        }
+    
+        h3{
+            color: $azulito;
+        }
+
+        
+    }
+
+    .miviva{
+        margin-bottom: 2rem;
+
+        @media screen and(max-width:750px){
+            .cards-cont{
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    
+}

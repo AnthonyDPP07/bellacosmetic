@@ -1,0 +1,29 @@
+@import "variable.scss";
+
+.pag-contacto{
+   margin-top: 0.2rem;
+
+    .encabezado{
+        margin: auto;
+        padding: 1em 0 1em 0 ;
+
+        @media screen and(max-width:750px){
+            display: flex;
+            justify-content: center;
+        }
+        h3{
+            color: $azulito
+        }
+    }
+
+    .formulario{
+        .form-cont{
+            display: flex;
+            justify-content: center;
+
+            form{
+                width: 50%;
+            }
+        }
+    }
+}

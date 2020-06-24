@@ -1,0 +1,18 @@
+/* line 3, ../sass/footer.scss */
+footer {
+  background-color: #FAFAFA;
+  margin-top: 1.5rem;
+}
+/* line 7, ../sass/footer.scss */
+footer .contac a {
+  color: #26A69A;
+}
+/* line 12, ../sass/footer.scss */
+footer .iconos {
+  display: flex;
+  justify-content: center;
+}
+/* line 16, ../sass/footer.scss */
+footer .iconos .ico {
+  color: #EE6E73 !important;
+}

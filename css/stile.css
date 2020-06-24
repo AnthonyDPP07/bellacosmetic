@@ -1,0 +1,190 @@
+/* line 3, ../sass/header.scss */
+header {
+  width: 100%;
+}
+/* line 5, ../sass/header.scss */
+header nav {
+  background: #EE6E73;
+}
+/* line 7, ../sass/header.scss */
+header nav .nav-link {
+  color: white !important;
+}
+/* line 11, ../sass/header.scss */
+header nav .logo {
+  border-radius: 100%;
+  background-color: white;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+/* line 7, ../sass/index.scss */
+.pag-index .parte2 .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+/* line 11, ../sass/index.scss */
+.pag-index .parte2 .encabezado h3 {
+  color: #26A69A;
+}
+/* line 17, ../sass/index.scss */
+.pag-index .parte2 .miviva .cards-cont {
+  margin-bottom: 2rem;
+}
+/* line 20, ../sass/index.scss */
+.pag-index .parte2 .miviva .cards-cont .card-body {
+  min-height: 220px;
+}
+
+/* line 3, ../sass/footer.scss */
+footer {
+  background-color: #FAFAFA;
+  margin-top: 1.5rem;
+}
+/* line 7, ../sass/footer.scss */
+footer .contac a {
+  color: #26A69A;
+}
+/* line 12, ../sass/footer.scss */
+footer .iconos {
+  display: flex;
+  justify-content: center;
+}
+/* line 16, ../sass/footer.scss */
+footer .iconos .ico {
+  color: #EE6E73 !important;
+}
+
+/* line 4, ../sass/nosotros.scss */
+.pag-nosotros .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+@media screen and (max-width: 750px) {
+  /* line 4, ../sass/nosotros.scss */
+  .pag-nosotros .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 13, ../sass/nosotros.scss */
+.pag-nosotros .encabezado h3 {
+  color: #26A69A;
+}
+/* line 20, ../sass/nosotros.scss */
+.pag-nosotros .miviva {
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 750px) {
+  /* line 24, ../sass/nosotros.scss */
+  .pag-nosotros .miviva .cards-cont {
+    margin-bottom: 2rem;
+  }
+}
+
+/* line 3, ../sass/contactanos.scss */
+.pag-contacto {
+  margin-top: 0.2rem;
+}
+/* line 6, ../sass/contactanos.scss */
+.pag-contacto .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+@media screen and (max-width: 750px) {
+  /* line 6, ../sass/contactanos.scss */
+  .pag-contacto .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 14, ../sass/contactanos.scss */
+.pag-contacto .encabezado h3 {
+  color: #26A69A;
+}
+/* line 20, ../sass/contactanos.scss */
+.pag-contacto .formulario .form-cont {
+  display: flex;
+  justify-content: center;
+}
+/* line 24, ../sass/contactanos.scss */
+.pag-contacto .formulario .form-cont form {
+  width: 50%;
+}
+
+/* line 4, ../sass/productos.scss */
+.pag-productos .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+@media screen and (max-width: 750px) {
+  /* line 4, ../sass/productos.scss */
+  .pag-productos .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 13, ../sass/productos.scss */
+.pag-productos .encabezado h3 {
+  color: #26A69A;
+}
+/* line 20, ../sass/productos.scss */
+.pag-productos .productos .card-cont {
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 425px) {
+  /* line 20, ../sass/productos.scss */
+  .pag-productos .productos .card-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* line 27, ../sass/productos.scss */
+  .pag-productos .productos .card-cont .card {
+    width: 18rem;
+  }
+}
+/* line 33, ../sass/productos.scss */
+.pag-productos .productos .card-cont .img-prod img {
+  height: 150px;
+}
+/* line 42, ../sass/productos.scss */
+.pag-productos .productos .card-cont .card-body .card-text {
+  height: 200px;
+}
+/* line 46, ../sass/productos.scss */
+.pag-productos .productos .card-cont .card-body .btn-primary {
+  background-color: #78B657;
+  border-color: #78B657;
+}
+
+/* line 9, ../sass/stile.scss */
+body {
+  max-width: 1800px;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 15, ../sass/stile.scss */
+body .pag-detalles .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+@media screen and (max-width: 750px) {
+  /* line 15, ../sass/stile.scss */
+  body .pag-detalles .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 24, ../sass/stile.scss */
+body .pag-detalles .encabezado h3 {
+  color: #26A69A;
+}
+/* line 29, ../sass/stile.scss */
+body .pag-detalles .card-cont {
+  width: 18rem;
+}
+/* line 33, ../sass/stile.scss */
+body .pag-detalles .btn-primary {
+  background: #78B657;
+  border-color: #78B657;
+}

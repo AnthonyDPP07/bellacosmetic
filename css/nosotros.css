@@ -1,0 +1,26 @@
+/* line 4, ../sass/nosotros.scss */
+.pag-nosotros .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+@media screen and (max-width: 750px) {
+  /* line 4, ../sass/nosotros.scss */
+  .pag-nosotros .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 13, ../sass/nosotros.scss */
+.pag-nosotros .encabezado h3 {
+  color: #26A69A;
+}
+/* line 20, ../sass/nosotros.scss */
+.pag-nosotros .miviva {
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 750px) {
+  /* line 24, ../sass/nosotros.scss */
+  .pag-nosotros .miviva .cards-cont {
+    margin-bottom: 2rem;
+  }
+}

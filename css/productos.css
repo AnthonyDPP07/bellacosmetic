@@ -1,0 +1,46 @@
+/* line 4, ../sass/productos.scss */
+.pag-productos .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+@media screen and (max-width: 750px) {
+  /* line 4, ../sass/productos.scss */
+  .pag-productos .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 13, ../sass/productos.scss */
+.pag-productos .encabezado h3 {
+  color: #26A69A;
+}
+/* line 20, ../sass/productos.scss */
+.pag-productos .productos .card-cont {
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 425px) {
+  /* line 20, ../sass/productos.scss */
+  .pag-productos .productos .card-cont {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* line 27, ../sass/productos.scss */
+  .pag-productos .productos .card-cont .card {
+    width: 18rem;
+  }
+}
+/* line 33, ../sass/productos.scss */
+.pag-productos .productos .card-cont .img-prod img {
+  height: 150px;
+}
+/* line 42, ../sass/productos.scss */
+.pag-productos .productos .card-cont .card-body .card-text {
+  height: 200px;
+}
+/* line 46, ../sass/productos.scss */
+.pag-productos .productos .card-cont .card-body .btn-primary {
+  background-color: #78B657;
+  border-color: #78B657;
+}

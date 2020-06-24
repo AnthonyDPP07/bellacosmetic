@@ -1,0 +1,38 @@
+@import 'variable.scss';
+@import 'header.scss';
+@import 'index.scss';
+@import 'footer.scss';
+@import 'nosotros.scss';
+@import 'contactanos.scss';
+@import 'productos.scss';
+
+ body{
+     max-width: 1800px;
+     font-family: $font;
+
+     .pag-detalles{
+
+        .encabezado{
+            margin: auto;
+            padding: 1em 0 1em 0 ;
+    
+            @media screen and(max-width:750px){
+                display: flex;
+                justify-content: center;
+            }
+        
+            h3{
+                color: $azulito;
+            }
+    
+        }
+        .card-cont{
+            width: 18rem;
+
+        }
+        .btn-primary{
+            background: $verdesito;
+            border-color: $verdesito;
+        }
+     }
+ }

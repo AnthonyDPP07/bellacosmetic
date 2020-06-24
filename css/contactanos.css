@@ -1,0 +1,29 @@
+/* line 3, ../sass/contactanos.scss */
+.pag-contacto {
+  margin-top: 0.2rem;
+}
+/* line 6, ../sass/contactanos.scss */
+.pag-contacto .encabezado {
+  margin: auto;
+  padding: 1em 0 1em 0;
+}
+@media screen and (max-width: 750px) {
+  /* line 6, ../sass/contactanos.scss */
+  .pag-contacto .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 14, ../sass/contactanos.scss */
+.pag-contacto .encabezado h3 {
+  color: #26A69A;
+}
+/* line 20, ../sass/contactanos.scss */
+.pag-contacto .formulario .form-cont {
+  display: flex;
+  justify-content: center;
+}
+/* line 24, ../sass/contactanos.scss */
+.pag-contacto .formulario .form-cont form {
+  width: 50%;
+}
