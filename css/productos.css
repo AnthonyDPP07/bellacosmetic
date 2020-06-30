@@ -18,14 +18,14 @@
 .pag-productos .productos .card-cont {
   margin-bottom: 2rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   /* line 20, ../sass/productos.scss */
   .pag-productos .productos .card-cont {
     display: flex;
     justify-content: center;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   /* line 27, ../sass/productos.scss */
   .pag-productos .productos .card-cont .card {
     width: 18rem;

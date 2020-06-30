@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="logo">
-                    <a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_url');?>/images/Logo_Bella_Cosmetic.png" alt="" width="100"></a>
+                    <a href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_url');?>/images/Logo_Bella_Cosmetic.png" alt="" width="75"></a>
                 </div>
             </div>
             

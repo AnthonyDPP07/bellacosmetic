@@ -20,12 +20,12 @@
         .card-cont{
         
             margin-bottom: 2rem;
-            @media screen and(max-width:425px){
+            @media screen and(max-width:426px){
                 display: flex;
                 justify-content: center;
             }
             .card{
-                @media screen and(max-width:425px){
+                @media screen and(max-width:426px){
                     width: 18rem;
                 }
             }

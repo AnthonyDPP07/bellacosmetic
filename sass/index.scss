@@ -7,6 +7,11 @@
         .encabezado{
             margin: auto;
             padding: 1em 0 1em 0 ;
+
+            @media screen and(max-width:700px){
+                display: flex;
+                justify-content: center;
+            }
         
             h3{
                 color: $azulito;

@@ -2,11 +2,14 @@
   <?php
   $url_actual = home_url( add_query_arg( array(), $wp->request ) );
 
-  if($url_actual == 'http://localhost/bella-cosmetic/nosotros'){
+  
+  $url = home_url( '', null );
+  
+  if($url_actual == $url.'/nosotros'){
     include "nosotros.php";
-  } else if($url_actual == 'http://localhost/bella-cosmetic/contactanos'){
+  } else if($url_actual == $url.'/contactanos'){
     include "contactanos.php";
-  }else if($url_actual == 'http://localhost/bella-cosmetic/productos'){
+  }else if($url_actual == $url.'/productos'){
     include "productos.php";
   }
   ?>

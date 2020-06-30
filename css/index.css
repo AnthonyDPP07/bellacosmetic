@@ -3,15 +3,22 @@
   margin: auto;
   padding: 1em 0 1em 0;
 }
-/* line 11, ../sass/index.scss */
+@media screen and (max-width: 700px) {
+  /* line 7, ../sass/index.scss */
+  .pag-index .parte2 .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 16, ../sass/index.scss */
 .pag-index .parte2 .encabezado h3 {
   color: #26A69A;
 }
-/* line 17, ../sass/index.scss */
+/* line 22, ../sass/index.scss */
 .pag-index .parte2 .miviva .cards-cont {
   margin-bottom: 2rem;
 }
-/* line 20, ../sass/index.scss */
+/* line 25, ../sass/index.scss */
 .pag-index .parte2 .miviva .cards-cont .card-body {
   min-height: 220px;
 }

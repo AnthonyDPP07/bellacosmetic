@@ -22,15 +22,22 @@ header nav .logo {
   margin: auto;
   padding: 1em 0 1em 0;
 }
-/* line 11, ../sass/index.scss */
+@media screen and (max-width: 700px) {
+  /* line 7, ../sass/index.scss */
+  .pag-index .parte2 .encabezado {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 16, ../sass/index.scss */
 .pag-index .parte2 .encabezado h3 {
   color: #26A69A;
 }
-/* line 17, ../sass/index.scss */
+/* line 22, ../sass/index.scss */
 .pag-index .parte2 .miviva .cards-cont {
   margin-bottom: 2rem;
 }
-/* line 20, ../sass/index.scss */
+/* line 25, ../sass/index.scss */
 .pag-index .parte2 .miviva .cards-cont .card-body {
   min-height: 220px;
 }
@@ -131,14 +138,14 @@ footer .iconos .ico {
 .pag-productos .productos .card-cont {
   margin-bottom: 2rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   /* line 20, ../sass/productos.scss */
   .pag-productos .productos .card-cont {
     display: flex;
     justify-content: center;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   /* line 27, ../sass/productos.scss */
   .pag-productos .productos .card-cont .card {
     width: 18rem;
@@ -163,27 +170,34 @@ body {
   max-width: 1800px;
   font-family: "Montserrat", sans-serif;
 }
-/* line 15, ../sass/stile.scss */
+@media screen and (max-width: 700px) {
+  /* line 14, ../sass/stile.scss */
+  body .pag-detalles .productos {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 23, ../sass/stile.scss */
 body .pag-detalles .encabezado {
   margin: auto;
   padding: 1em 0 1em 0;
 }
 @media screen and (max-width: 750px) {
-  /* line 15, ../sass/stile.scss */
+  /* line 23, ../sass/stile.scss */
   body .pag-detalles .encabezado {
     display: flex;
     justify-content: center;
   }
 }
-/* line 24, ../sass/stile.scss */
+/* line 32, ../sass/stile.scss */
 body .pag-detalles .encabezado h3 {
   color: #26A69A;
 }
-/* line 29, ../sass/stile.scss */
+/* line 37, ../sass/stile.scss */
 body .pag-detalles .card-cont {
   width: 18rem;
 }
-/* line 33, ../sass/stile.scss */
+/* line 41, ../sass/stile.scss */
 body .pag-detalles .btn-primary {
   background: #78B657;
   border-color: #78B657;

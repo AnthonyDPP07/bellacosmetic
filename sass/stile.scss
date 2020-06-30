@@ -9,9 +9,17 @@
  body{
      max-width: 1800px;
      font-family: $font;
-
+    
      .pag-detalles{
+        .productos{
 
+            
+            @media screen and (max-width:700px){
+                display: flex;
+                justify-content: center;
+
+            }
+        }
         .encabezado{
             margin: auto;
             padding: 1em 0 1em 0 ;
